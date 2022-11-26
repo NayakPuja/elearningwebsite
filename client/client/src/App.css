@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.bg {
+  background-color: black;
+}
+
+.font-color {
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+
+}
+
+.wraph1 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.bg-thumbnail {
+  background-color: #fd5f00;
+}
+
+.bg-footer {
+  background-color: black;
+}
+
+.bg-thumbnail2 {
+  background-color: #0d1128;
+}
+
+.heading {
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.heading1 {
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.para1 {
+  color: rgba(245, 245, 245, 0.92);
+  font-family: "Rubik", arial, sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-control {
+  height: 52px !important;
+  background: #fff !important;
+  color: #000 !important;
+  font-size: 18px;
+  border-radius: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+.para {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  color: gray;
+}
+
+.nav-active {
+  color: #fd5f00;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
